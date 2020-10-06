@@ -1,11 +1,24 @@
 <main id="main">
   <div class="grid-container">
     <div class="grid-y grid-margin-y">
-      <div class="cel">
-        Orbit
-      </div>
-      <div class="cel">
-        Imagenes
+      <div class="cell">{{> orbit}}</div>
+      <div class="cell">
+        <div class="grid-x grid-margin-x">
+          <div class="cell small-6">
+            <img
+              class="orbit-image"
+              src="assets/img/custom_italy.jpg"
+              alt="Custom Italy Collection"
+            />
+          </div>
+          <div class="cell small-6">
+            <img
+              class="orbit-image"
+              src="assets/img/pride.jpg"
+              alt="Pride Collecction"
+            />
+          </div>
+        </div>
       </div>
     </div>
   </div>
